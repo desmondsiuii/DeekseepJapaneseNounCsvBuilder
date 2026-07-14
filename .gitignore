@@ -1,0 +1,8 @@
+*.txt
+*.csv
+__pycache__
+backup
+secret.py
+!keyword.txt
+!note.txt
+!task-result-accumulate.txt
