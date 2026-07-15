@@ -24,7 +24,7 @@ def deduplicate_by_second_column(input_file="task-result-accumulate.txt"):
             content = f.read()
         # with open(backup_file, 'w', encoding='utf-8') as f:
         #     f.write(content)
-        print(f"📦 Backup created: {backup_file}")
+        # print(f"📦 Backup created: {backup_file}")
     except Exception as e:
         print(f"⚠️ Could not create backup: {e}")
         response = input("Continue without backup? (y/n): ").lower()
